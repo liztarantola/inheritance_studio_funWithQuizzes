@@ -17,7 +17,7 @@ public class MultipleChoice extends Question {
     @Override
     public void displayAnswers() {
         for (int i = 0; i < possibleAnswers.size(); i++) {
-            System.out.println((possibleAnswers.get(i)));
+            System.out.println(possibleAnswers.get(i));
         }
     }
 
